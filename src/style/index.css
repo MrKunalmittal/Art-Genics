@@ -3,12 +3,13 @@
 :root {
      --app-body-box-shadow: 0 0.275rem 1.25rem rgb(11 15 25 / 5%), 0 0.25rem 0.5625rem rgb(11 15 25 / 3%);
     --app-gray-section: #f3f6ff;
-    --app-button-background-color: #00be7f;
-    --app-button-hover-background-color: #027e55;
+    --app-button-background-color: #4297A0;
+    --app-button-hover-background-color:  #2F5061;
     --app-title-color: #343541;
     --app-gray-title: #9b9b9b;
     --app-gray-content: #868585;
     --app-gray-background:#e5e9f1; 
+   
 }
 
 .container {
@@ -72,7 +73,6 @@ header h1 {
 }
 
 .nav-bar p:hover {
-    /* color: #00be7f ; */
     text-decoration: underline;
 }
 
@@ -135,24 +135,24 @@ button + button {
 
 button.primary {
     
-    background-color: #4297A0;
+    background-color: var(--app-button-background-color);;
 }
 
 button.primary:hover {
-    background-color: #2F5061 ;
+    background-color: var(--app-button-hover-background-color) ;
 }
 
 button.secondary {
     background-color: transparent;
-    border: 2px solid #4297A0;
+    border: 2px solid  var(--app-button-background-color);;
     color: var(--app-gray-section);
-    color: #4297A0;
+    color:  var(--app-button-background-color);
     font-size: 20px;
 }
 
 
 button.secondary:hover {
-    background-color: #2F5061;
+    background-color:  var(--app-button-hover-background-color);
     color: var(--app-gray-section);
 }
 /*-------------------gallery-----------------------*/
@@ -170,7 +170,7 @@ button.secondary:hover {
     color: var(--app-button-background-color);
     text-align: center;
     text-shadow: 2px 2px 5px rgba(38,36,36,0.3);
-    color: #4297A0;
+    color:  var(--app-button-background-color);
 
 }
 
