@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Art-Genics/static/css/main.2dddc4f1.css",
+    "main.css": "/Art-Genics/static/css/main.b2a72380.css",
     "main.js": "/Art-Genics/static/js/main.5ad915b5.js",
     "static/media/ankhesenamun-KitGM-GDgOI-unsplash.jpg": "/Art-Genics/static/media/ankhesenamun-KitGM-GDgOI-unsplash.73b3bce7bf361fd5868c.jpg",
     "index.html": "/Art-Genics/index.html",
-    "main.2dddc4f1.css.map": "/Art-Genics/static/css/main.2dddc4f1.css.map",
+    "main.b2a72380.css.map": "/Art-Genics/static/css/main.b2a72380.css.map",
     "main.5ad915b5.js.map": "/Art-Genics/static/js/main.5ad915b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dddc4f1.css",
+    "static/css/main.b2a72380.css",
     "static/js/main.5ad915b5.js"
   ]
 }
